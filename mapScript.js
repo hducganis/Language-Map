@@ -56,19 +56,19 @@ const tileLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', 
 
 // custom pin marker icon
 const pinIcon = L.icon({
-  iconUrl: "icons/pin1.png",
+  iconUrl: "pin1.png",
   iconSize: [30, 30]
 });
 
 // custom button marker icon
 const buttonIcon = L.icon({
-  iconUrl: "icons/button.png",
+  iconUrl: "button.png",
   iconSize: [15, 15]
 });
 
 // custom flag marker icon (example: french flag)
 const frenchIcon = L.icon({
-  iconUrl: "icons/flags/franceFlag.png",
+  iconUrl: "franceFlag.png",
   iconSize: [20, 20]
 });
 
