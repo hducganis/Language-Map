@@ -96,9 +96,9 @@ function capitalize(text) {
 // The three csv files written by build_points.py
 // Each has a header row: Id,Language,Latitude,Longitude
 const POINT_FILES = [
-  "data/plotting_data/student_points.csv",
-  "data/plotting_data/staff_points.csv",
-  "data/plotting_data/faculty_points.csv"
+  "student_points.csv",
+  "staff_points.csv",
+  "faculty_points.csv"
 ];
  
 // Plot every marker in one csv file. Returns the number of markers added.
