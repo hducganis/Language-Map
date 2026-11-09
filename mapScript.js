@@ -69,17 +69,17 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Custom Icons
 // ---------------------------------------------------------------------------
 const pinIcon = L.icon({
-  iconUrl: "icons/pin1.png",
+  iconUrl: "pin1.png",
   iconSize: [30, 30]
 });
 
 const buttonIcon = L.icon({
-  iconUrl: "icons/button.png",
+  iconUrl: "button.png",
   iconSize: [15, 15]
 });
 
 const frenchIcon = L.icon({
-  iconUrl: "icons/flags/franceFlag.png",
+  iconUrl: "franceFlag.png",
   iconSize: [20, 20]
 });
 
@@ -98,9 +98,9 @@ function capitalize(text) {
 
 // The three csv files written by build_points.py
 const POINT_FILES = [
-  "data/plotting_data/student_points.csv",
-  "data/plotting_data/staff_points.csv",
-  "data/plotting_data/faculty_points.csv"
+  "student_points.csv",
+  "staff_points.csv",
+  "faculty_points.csv"
 ];
 
 function plotPoints(url) {
